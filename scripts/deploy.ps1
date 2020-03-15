@@ -1,4 +1,9 @@
-"Deploying to Github pages..."
+"**Deploying to Github pages...**"
+git stash
+
+"Building web..."
+flutter build web
+
 "Checking out master branch..."
 git checkout master
 
@@ -11,3 +16,6 @@ git commit -m "Auto deploy commit"
 
 "Pushing to master..."
 git push
+
+git checkout flutter-web
+git stash pop
