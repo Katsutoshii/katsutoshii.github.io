@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         leading: Padding(
           padding: const EdgeInsets.all(8.0),
-          child: Text('勝利', style: Theme.of(context).textTheme.headline4,),
+          child: FittedBox(fit: BoxFit.fitHeight, child: Text('勝')),
         ),
         actions: <Widget>[themeSwitch(context)],
         title: TabBar(
