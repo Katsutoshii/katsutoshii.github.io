@@ -1,10 +1,7 @@
 import 'package:katsutoshii/config/assets.dart';
 import 'package:katsutoshii/config/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:scoped_model/scoped_model.dart';
 import 'dart:html' as html;
-
-import '../models/theme_switcher.dart';
 
 class AboutTab extends StatelessWidget {
   @override
@@ -16,9 +13,12 @@ class AboutTab extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              CircleAvatar(
-                radius: 100,
-                backgroundImage: Image.asset(Assets.avatar).image,
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: CircleAvatar(
+                  radius: 100,
+                  backgroundImage: Image.asset(Assets.avatar).image,
+                ),
               ),
               SizedBox(
                 height: 20,

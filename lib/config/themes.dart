@@ -16,6 +16,7 @@ ThemeData darkTheme(context) {
         splashColor: Colors.black),
     appBarTheme: AppBarTheme(
       elevation: 0.0,
+      color: Colors.white.withAlpha(64)
     ),
   );
 }
@@ -36,6 +37,7 @@ ThemeData lightTheme(context) {
         splashColor: Colors.white),
     appBarTheme: AppBarTheme(
       elevation: 0.0,
+      color: Colors.blueGrey.withAlpha(100)
     ),
   );
 }
