@@ -24,7 +24,6 @@ flutter:
   assets:
   - assets/images/
   - assets/images/projects/
-  - assets/projects/
 
   fonts:
   - family: GoogleSansRegular
