@@ -1,7 +1,7 @@
-import 'package:katsutoshii/config/constants.dart';
 import 'package:katsutoshii/models/project.dart';
 import 'package:flutter/material.dart';
-import 'dart:html' as html;
+
+import 'package:katsutoshii/utils/url.dart';
 
 class ProjectWidget extends StatelessWidget {
   final Project _project;
@@ -39,11 +39,11 @@ class ProjectWidget extends StatelessWidget {
                   padding: EdgeInsets.only(top: 8.0),
                   child: Column(
                     mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       Text(_project.name,
-                          style: Theme.of(context).textTheme.title),
+                          style: Theme.of(context).textTheme.headline6),
                       SizedBox(
                         height: height * .01,
                       ),
@@ -64,7 +64,6 @@ class ProjectWidget extends StatelessWidget {
   }
 
   void onProjectClick() {
-    if (_project.link != null)
-      html.window.open(_project.link, Constants.username);
+    if (_project.link != null) launchURL(_project.link);
   }
 }

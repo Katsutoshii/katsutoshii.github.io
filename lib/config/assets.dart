@@ -1,12 +1,21 @@
 class Assets {
-  static const String moon = 'assets/images/moon.png';
-  static const String avatar = 'assets/images/avatar.jpg';
-  static const String facebook = 'assets/images/facebook.png';
-  static const String github = 'assets/images/github.png';
-  static const String instagram = 'assets/images/instagram.png';
-  static const String linkedin = 'assets/images/linkedin.png';
-  static const String soundcloud = 'assets/images/soundcloud.png';
-  static const String twitter = 'assets/images/twitter.png';
+  static const String assetsDir = 'assets/';
+  static const String imagesDir = assetsDir + 'images/';
+  static const String projectsDir = imagesDir + 'projects/';
 
-  static const String plr = "assets/images/projects/plr.png";
+  static const String moon = imagesDir + 'moon.png';
+  static const String avatar = imagesDir + 'avatar.jpg';
+  static const String facebook = imagesDir + 'facebook.png';
+  static const String github = imagesDir + 'github.png';
+  static const String instagram = imagesDir + 'instagram.png';
+  static const String linkedin = imagesDir + 'linkedin.png';
+  static const String soundcloud = imagesDir + 'soundcloud.png';
+  static const String twitter = imagesDir + 'twitter.png';
+
+  static const String plr = projectsDir + "plr.jpg";
+  static const String hamono = projectsDir + "hamono.jpg";
+  static const String jpcfg = projectsDir + "jpcfg.jpg";
+  static const String laundryfolding = projectsDir + "laundryfolding.jpg";
+  static const String planarmaxcut = projectsDir + "planar-maxcut.png";
+  static const String mpl = projectsDir + "mpl.png";
 }
