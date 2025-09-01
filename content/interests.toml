@@ -17,7 +17,7 @@ description = "Leverage deep learning to produce predictions on par with physics
 reverse = true
 
 [[links]]
-title = "Climate modelling"
+title = "Climate modeling"
 image = "/assets/interests/climateiq.png"
 image_alt = "People image"
 description = "Leverage deep learning to produce predictions on par with physics-based simulations."
