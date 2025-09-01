@@ -7,7 +7,7 @@
 
 .about-text {
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   font-size: 1.5rem;
   font-weight: 500;
 
@@ -155,4 +155,29 @@ img.sponsors__logo.sponsors__encultured-ai {
 
 img.sponsors__logo.sponsors__roids {
   max-height: 130px;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0.5rem 0.5rem;
+}
+
+.social {
+  padding: 12px;
+
+  img {
+    filter: var(--footer-image-filter);
+    transition: scale $duration, opacity $duration;
+    opacity: 0.65;
+  }
+
+  &:hover {
+    img {
+      scale: 110%;
+      opacity: 1;
+    }
+  }
 }

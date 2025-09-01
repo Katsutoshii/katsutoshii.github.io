@@ -13,3 +13,10 @@ url = "https://bsky.app/profile/katsutoshii.bsky.social"
 image = "/assets/profiles/bluesky.svg"
 image_alt = "BlueSky"
 show_in_footer = true
+
+[[links]]
+title = "LinkedIn"
+url = "https://bsky.app/profile/katsutoshii.bsky.social"
+image = "/assets/profiles/linkedin.svg"
+image_alt = "BlueSky"
+show_in_footer = true

@@ -1,12 +1,15 @@
 +++
-title = "WGSL"
-template = "code.html"
+title = "Siphonowar"
+template = "devlog.html"
 insert_anchor_links = "right"
 [extra]
 weight = 1
 +++
 
-## Fog of war shader
+Here I document my work on Siphonowar, an RTS based in the bottom of the ocean floor where the player controls a complex organism called a Siphonophore.
+I started this project to learn the [Bevy Game Engine](https://bevy.org).
+
+## Fog of war
 
 ```wgsl
 @group(2) @binding(0) var<uniform> color: vec4<f32>;
@@ -46,13 +49,9 @@ fn fragment(mesh: VertexOutput) -> @location(0) vec4<f32> {
     let fog_c = textureSample9(visibility_texture_c, texture_sampler_c, uv, e).r;
     var fog_amount = (fog_a + fog_b + fog_c) / 3.0;
 
-    
-    // var fog_amount = textureSample9(visibility_texture_a, texture_sampler_a, uv, e).r;
-
     let alpha = 1.0 - fog_amount;
     output_color.a *= alpha + noise_amount * max(noise, 0.);
     return output_color;
 }
-
 ```
 

@@ -8,5 +8,5 @@ title = "Projects"
 url = "/projects/"
 
 [[links]]
-title = "Code"
-url = "/code/"
+title = "Devlog"
+url = "/devlog/"
