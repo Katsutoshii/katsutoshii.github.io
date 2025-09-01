@@ -1,0 +1,158 @@
+.bevy-logo-header {
+  display: block;
+  margin: 32px auto;
+  width: 100%;
+  max-width: 35rem;
+}
+
+.about-text {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  .button {
+    margin-top: 24px;
+    font-size: 1.4rem;
+  }
+}
+
+
+.about-sub-text {
+  text-align: center;
+  margin-top: 1.5rem;
+
+  .button {
+    margin-top: 24px;
+    font-size: 1.4rem;
+  }
+}
+
+.interest-list {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.interest-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.interest-container-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.interests-hr {
+  height: 3px;
+  border: none;
+  margin-top: 2.0rem;
+  margin-bottom: 2.0rem;
+  border-radius: 6px;
+  background: var(--feature-image-bg-color)
+}
+
+.interests-title {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.interest-title {
+  font-size: 2.0rem;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.interest-description {
+  font-size: 1.0rem;
+}
+
+.interest-image {
+  height: 24rem;
+  background-color: var(--feature-image-bg-color);
+  border-radius: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-clip: padding-box;
+}
+
+.interest-text {
+  align-self: center;
+}
+
+.interest-image,
+.interest-text {
+  width: 100%;
+  max-width: 535px;
+  border-width: 1.8rem;
+  border-style: solid;
+  border-color: transparent;
+
+  @media #{$bp-tablet-portrait-up} {
+    width: 50%;
+  }
+
+  @media #{$bp-desktop-up} {
+    min-width: 535px;
+  }
+}
+
+.interest-sublist {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0px;
+  padding-left: 2rem;
+  font-size: 1.22rem;
+}
+
+.interest-img {
+  max-height: 80%;
+  max-width: 80%;
+  width: auto;
+  height: auto;
+
+  border-radius: 1rem;
+}
+
+.features-whats-next {
+  text-align: center;
+  font-size: 1.5rem !important;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.bronze-sponsor-image {
+  height: 3.8rem;
+  margin: 1rem;
+}
+
+.silver-sponsor-image {
+  height: 5.4rem;
+  margin: 1rem;
+}
+
+.platinum-sponsor-image {
+  height: 7rem;
+  margin: 1rem;
+}
+
+img.sponsors__logo.sponsors__foresight-spatial-labs {
+  height: 140px;
+}
+
+img.sponsors__logo.sponsors__encultured-ai {
+  max-height: 60px;
+}
+
+img.sponsors__logo.sponsors__roids {
+  max-height: 130px;
+}

@@ -1,0 +1,15 @@
+
+[[links]]
+title = "GitHub"
+url = "https://github.com/Katsutoshii"
+image = "/assets/profiles/github-mark-white.svg"
+image_alt = "GitHub"
+show_in_footer = true
+
+
+[[links]]
+title = "BlueSky"
+url = "https://bsky.app/profile/katsutoshii.bsky.social"
+image = "/assets/profiles/bluesky.svg"
+image_alt = "BlueSky"
+show_in_footer = true

@@ -1,0 +1,26 @@
+[[links]]
+title = "Kataru"
+subtitle = "kataru-lang"
+url = "https://github.com/kataru-lang/kataru"
+image = "/assets/projects/kataru-lang.svg"
+image_alt = "Kataru"
+description = """
+Dialogue engine for narative games.
+"""
+reverse = false
+
+[[links]]
+title = "ClimateIQ"
+url = "https://climateiq.org"
+image = "/assets/interests/climateiq.png"
+image_alt = "ClimateIQ"
+description = "Leverage deep learning to produce climate predictions on par with physics-based simulations."
+reverse = true
+
+[[links]]
+title = "Robotic laundry folding"
+url = "https://digitalcommons.dartmouth.edu/cgi/viewcontent.cgi?article=1132&context=senior_theses"
+image = "/assets/projects/robotic-laundry.png"
+image_alt = "Robotic laundry folding"
+description = "Leverage deep learning to produce predictions on par with physics-based simulations."
+reverse = false

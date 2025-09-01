@@ -1,0 +1,40 @@
+{% extends "layouts/base.html" %}
+{% block head_extensions %}
+<meta name="description" content="Josiah Putman's personal website." />
+<link href="https://katsutoshii.github.io" rel="me" />
+{% endblock head_extensions %}
+{% block content %}
+{% set projects = load_data(path="/content/projects/projects.toml") %}
+<div>
+    <h1 class="interests-title">Projects</h1>
+    <hr class="interests-hr">
+    <div class="interest-list">
+        {% for project in projects.links %}
+        {% if project.reverse %}
+        <div class="interest-container interest-container-reverse">
+            <div class="interest-image">
+                <img src="{{ project.image }}" class="interest-img" alt="{{ project.image_alt }}" width="444"
+                    height="226" />
+            </div>
+            <div class=" interest-text">
+                <h2 class="interest-title"><a href="{{ project.url }}">{{ project.title }}</a></h2>
+                <div class="interest-description">{{ project.description }}</div>
+            </div>
+        </div>
+        {% else %}
+        <div class="interest-container">
+            <div class=" interest-text">
+                <h2 class="interest-title"><a href="{{ project.url }}">{{ project.title }}</a></h2>
+                <div class="interest-description">{{ project.description }}</div>
+            </div>
+            <div class="interest-image">
+                <img src="{{ project.image }}" class="interest-img" alt="{{ project.image_alt }}" width="444"
+                    height="226" />
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock content %}

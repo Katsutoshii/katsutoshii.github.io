@@ -1,0 +1,24 @@
+[[links]]
+description = """
+Create highly scalable systems that can process O(B) inferences via optimizing model
+architecture and making the most of TPU/GPU accelerators.
+"""
+title = "High-performance ML"
+image = "/assets/interests/jax_logo.svg"
+image_alt = "JAX"
+show_in_footer = true
+reverse = false
+
+[[links]]
+title = "Game developer tooling"
+image = "/assets/interests/heightmap.png"
+image_alt = "People image"
+description = "Leverage deep learning to produce predictions on par with physics-based simulations."
+reverse = true
+
+[[links]]
+title = "Climate modelling"
+image = "/assets/interests/climateiq.png"
+image_alt = "People image"
+description = "Leverage deep learning to produce predictions on par with physics-based simulations."
+reverse = false
