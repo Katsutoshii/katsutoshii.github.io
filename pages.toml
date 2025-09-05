@@ -1,0 +1,16 @@
+
+[[links]]
+title = "About"
+url = "/"
+
+[[links]]
+title = "Projects"
+url = "/projects/"
+
+[[links]]
+title = "Resume"
+url = "/resume/"
+
+[[links]]
+title = "Devlog"
+url = "/devlog/"

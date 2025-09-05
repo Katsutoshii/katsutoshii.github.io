@@ -1,0 +1,56 @@
+
+[[links]]
+title = "PLRC* For Motion Planning"
+url = "https://www.researchgate.net/publication/345260649_PLRC_A_piecewise_linear_regression_complex_for_approximating_optimal_robot_motion"
+image = "/assets/projects/plrc.png"
+image_alt = "PLRC* For Motion Planning"
+description = "A piecewise linear regression complex for approximating optimal robot motion. Publication in IROS 2020."
+reverse = false
+
+[[links]]
+title = "Kataru"
+subtitle = "kataru-lang"
+url = "https://github.com/kataru-lang/kataru"
+image = "/assets/projects/kataru-lang.svg"
+image_alt = "Kataru"
+description = """
+Kataru 「カタル」is a system for interactive dialogue based on YAML, parsed in Rust.
+Kataru is similar to Twine and Yarn Spinner except with more support for organizing passages and sharing common functionality across multiple characters.
+"""
+reverse = true
+
+[[links]]
+title = "ClimateIQ"
+url = "https://climateiq.org"
+image = "/assets/interests/climateiq.png"
+image_alt = "ClimateIQ"
+description = """ClimateIQ helps city planners and communities prioritize local adaptations to climate hazards, using advanced climate models and machine learning to identify the areas most at risk.
+I helped architect and develop novel ConvLSTM networks to perform flood an datompsheric predictions with less than 5% of the compute required by physics based models."""
+reverse = false
+
+
+[[links]]
+title = "MotionPlanning.jl"
+url = "https://gitlab.com/dartmouthrobotics/MotionPlanning.jl"
+image = "/assets/projects/mpl.png"
+image_alt = "MotionPlanning.jl"
+description = "Julia library for simulated robotic motion planning."
+reverse = true
+
+
+[[links]]
+title = "PlanarMaxCut.jl"
+url = "https://gitlab.com/dartmouthrobotics/PlanarMaxCut.jl"
+image = "/assets/projects/planar-maxcut.png"
+image_alt = "PlanarMaxCut.jl"
+description = "Julia implementation of polynomial-time max cut on planar graphs."
+reverse = false
+
+
+[[links]]
+title = "Robotic laundry folding"
+url = "https://digitalcommons.dartmouth.edu/cgi/viewcontent.cgi?article=1132&context=senior_theses"
+image = "/assets/projects/robotic-laundry.png"
+image_alt = "Robotic laundry folding"
+description = "Leverage deep learning to produce predictions on par with physics-based simulations."
+reverse = true
