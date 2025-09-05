@@ -17,3 +17,22 @@
     height: 100%;
     object-fit: cover;
 }
+
+.resume-pdf-wrapper {
+    width: 80%;
+    height: 1000px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,14 @@
+{% extends "layouts/base.html" %}
+{% block head_extensions %}
+<meta name="description" content="Josiah Putman's personal website." />
+<link href="https://katsutoshii.github.io" rel="me" />
+{% endblock head_extensions %}
+{% block content %}
+<div>
+    <h1 class="interests-title">Resume</h1>
+    <hr class="interests-hr">
+    <div class="resume-pdf-wrapper"> <embed src="/assets/josiah-putman-resume.pdf" width="80%" height="1000"
+            type="application/pdf" class="resume-pdf"></div>
+</div>
+
+{% endblock content %}
