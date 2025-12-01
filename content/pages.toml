@@ -12,5 +12,9 @@ title = "Resume"
 url = "/resume/"
 
 [[links]]
+title = "CV"
+url = "/cv/"
+
+[[links]]
 title = "Devlog"
 url = "/devlog/"
